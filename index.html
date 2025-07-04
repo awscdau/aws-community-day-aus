@@ -1,0 +1,2270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs ================================================== -->
+    <meta charset="utf-8" />
+
+    <!-- Mobile Specific Metas ================================================== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+
+    <!-- Site Title -->
+    <title>AWS Community Day Australia 2025</title>
+    <meta name="description" content="Community-led conference for AWS users. Learn from hands-on practitioners like yourself. Brisbane, Australia, 2025" />
+    <meta property="og:image" content="images/aws_cd_au.png" />
+    <meta property="keywords" content="AWS, AWS Community Day, Brisbane" />
+    
+    <link rel="icon" type="image/png" href="images/favico.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCGRDNV5VM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ZCGRDNV5VM");
+    </script>
+
+    <!-- CSS
+   ================================================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- Animation -->
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
+    <!-- magnific -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <!-- carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <!-- isotop -->
+    <link rel="stylesheet" href="css/isotop.css" />
+    <!-- ico fonts -->
+    <link rel="stylesheet" href="css/xsIcon.css" />
+    <!-- Template styles-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <link rel="stylesheet" href="css/animate.css" />
+
+
+    <style>
+      .community-role {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #FF9900;
+        background-color: rgba(128, 128, 128, 0.4);
+        border-radius: 8px;
+        padding: 1px;
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 4rem 0;
+        font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+
+      .scheduleContainer {
+        display: grid;
+        grid-gap: 0.2rem;
+        grid-template-columns: 5rem repeat(4, 1fr);
+        grid-template-rows: repeat(28, 1fr);
+        grid-template-areas: "time800 stage stage stage stage" "time830 stage stage stage stage" "time900 stage stage stage stage" "time930 stage stage stage stage" "time955 stage stage stage stage" "time1000 stage stage stage stage" "time1015 stage stage stage stage" "time1025 stage stage stage stage" "time1029 stage stage stage stage" "time1030 stage stage stage stage" "time1100 stage stage stage stage" "time1110 stage stage stage stage" "time1120 stage stage stage stage" "time1130 stage stage stage stage"  "time1149 stage stage stage stage" "time1150 stage stage stage stage" "time1200 stage stage stage stage" "time1230 stage stage stage stage" "time1259 stage stage stage stage" "time1300 stage stage stage stage" "time1330 stage stage stage stage" "time1340 stage stage stage stage" "time1400 stage stage stage stage" "time1410 stage stage stage stage" "time1420 stage stage stage stage" "time1430 stage stage stage stage" "time1445 stage stage stage stage" "time1450 stage stage stage stage" "time1500 stage stage stage stage" "time1530 stage stage stage stage" "time1540 stage stage stage stage" "time1600 stage stage stage stage" "time1610 stage stage stage stage" "time1620 stage stage stage stage" "time1630 stage stage stage stage" "time1700 stage stage stage stage" "time1710 stage stage stage stage";
+      }
+
+      /**
+       * Time
+       */
+      .time {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        border-top: thin dotted #ccc;
+        height: 100%;
+        padding: 0 0.5rem;
+      }
+      .time.start-900 {
+        grid-area: time900;
+      }
+      .time.start-930 {
+        grid-area: time930;
+      }
+      .time.start-955 {
+        grid-area: time955;
+      }
+      .time.start-1000 {
+        grid-area: time1000;
+      }
+      .time.start-1015 {
+        grid-area: time1015;
+      }
+      .time.start-1025 {
+        grid-area: time1025;
+      }
+      .time.start-1029 {
+        grid-area: time1029;
+      }
+      .time.start-1030 {
+        grid-area: time1030;
+      }
+      .time.start-1100 {
+        grid-area: time1100;
+      }
+      .time.start-1110 {
+        grid-area: time1110;
+      }
+      .time.start-1120 {
+        grid-area: time1120;
+      }
+      .time.start-1130 {
+        grid-area: time1130;
+      }
+      .time.start-1150 {
+        grid-area: time1150;
+      }
+      .time.start-1200 {
+        grid-area: time1200;
+      }
+      .time.start-1230 {
+        grid-area: time1230;
+      }
+      .time.start-1300 {
+        grid-area: time1300;
+      }
+      .time.start-1330 {
+        grid-area: time1330;
+      }
+      .time.start-1340 {
+        grid-area: time1340;
+      }
+      .time.start-1400 {
+        grid-area: time1400;
+      }
+      .time.start-1410 {
+        grid-area: time1410;
+      }
+      .time.start-1420 {
+        grid-area: time1420;
+      }
+      .time.start-1430 {
+        grid-area: time1430;
+      }
+      .time.start-1445 {
+        grid-area: time1445;
+      }
+      .time.start-1450 {
+        grid-area: time1450;
+      }
+      .time.start-1500 {
+        grid-area: time1500;
+      }
+      .time.start-1530 {
+        grid-area: time1530;
+      }
+      .time.start-1540 {
+        grid-area: time1540;
+      }
+      .time.start-1600 {
+        grid-area: time1600;
+      }
+      .time.start-1610 {
+        grid-area: time1610;
+      }
+      .time.start-1620 {
+        grid-area: time1620;
+      }
+      .time.start-1630 {
+        grid-area: time1630;
+      }
+      .time.start-1700 {
+        grid-area: time1700;
+      }
+      .time.start-1710 {
+        grid-area: time1710;
+      }
+      .time[class*="30"]:not(.start-1300) {
+        font-size: 0.8rem;
+        color: #ccc;
+      }
+
+      /**
+       * Event
+       */
+      .event {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0.5rem 1rem;
+        background-color: orange;
+        border-radius: 0.2rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        line-height: 1.4;
+      }
+      .event span {
+        display: block;
+        width: 100%;
+        font-size: 0.8em;
+        font-weight: normal;
+      }
+
+      .event.start-900 {
+        grid-row-start: time900;
+      }
+      .event.start-930 {
+        grid-row-start: time930;
+      }
+      .event.start-955 {
+        grid-row-start: time955;
+      }
+      .event.start-1000 {
+        grid-row-start: time1000;
+      }
+      .event.start-1015 {
+        grid-row-start: time1015;
+      }
+      .event.start-1025 {
+        grid-row-start: time1025;
+      }
+      .event.start-1029 {
+        grid-row-start: time1029;
+      }
+      .event.start-1030 {
+        grid-row-start: time1030;
+      }
+      .event.start-1100 {
+        grid-row-start: time1100;
+      }
+      .event.start-1110 {
+        grid-row-start: time1110;
+      }
+      .event.start-1120 {
+        grid-row-start: time1120;
+      }
+      .event.start-1130 {
+        grid-row-start: time1130;
+      }
+      .event.start-1150 {
+        grid-row-start: time1150;
+      }
+      .event.start-1200 {
+        grid-row-start: time1200;
+      }
+      .event.start-1230 {
+        grid-row-start: time1230;
+      }
+      .event.start-1300 {
+        grid-row-start: time1300;
+      }
+      .event.start-1330 {
+        grid-row-start: time1330;
+      }
+      .event.start-1340 {
+        grid-row-start: time1340;
+      }
+      .event.start-1400 {
+        grid-row-start: time1400;
+      }
+      .event.start-1410 {
+        grid-row-start: time1410;
+      }
+      .event.start-1420 {
+        grid-row-start: time1420;
+      }
+      .event.start-1430 {
+        grid-row-start: time1430;
+      }
+      .event.start-1445 {
+        grid-row-start: time1445;
+      }
+      .event.start-1450 {
+        grid-row-start: time1450;
+      }
+      .event.start-1500 {
+        grid-row-start: time1500;
+      }
+      .event.start-1530 {
+        grid-row-start: time1530;
+      }
+      .event.start-1540 {
+        grid-row-start: time1540;
+      }
+      .event.start-1600 {
+        grid-row-start: time1600;
+      }
+      .event.start-1610 {
+        grid-row-start: time1610;
+      }
+      .event.start-1620 {
+        grid-row-start: time1620;
+      }
+      .event.start-1630 {
+        grid-row-start: time1630;
+      }
+      .event.start-1700 {
+        grid-row-start: time1700;
+      }
+      .event.start-1710 {
+        grid-row-start: time1710;
+      }
+      .event.end-800 {
+        grid-row-end: time800;
+      }
+      .event.end-830 {
+        grid-row-end: time830;
+      }
+      .event.end-900 {
+        grid-row-end: time900;
+      }
+      .event.end-930 {
+        grid-row-end: time930;
+      }
+      .event.end-955 {
+        grid-row-end: time955;
+      }
+      .event.end-1000 {
+        grid-row-end: time1000;
+      }
+      .event.end-1015 {
+        grid-row-end: time1015;
+      }
+      .event.end-1025 {
+        grid-row-end: time1025;
+      }
+      .event.end-1029 {
+        grid-row-end: time1029;
+      }
+      .event.end-1030 {
+        grid-row-end: time1030;
+      }
+      .event.end-1100 {
+        grid-row-end: time1100;
+      }
+      .event.end-1110 {
+        grid-row-end: time1110;
+      }
+      .event.end-1120 {
+        grid-row-end: time1120;
+      }
+      .event.end-1130 {
+        grid-row-end: time1130;
+      }
+      .event.end-1149 {
+        grid-row-end: time1149;
+      }
+      .event.end-1150 {
+        grid-row-end: time1150;
+      }
+      .event.end-1200 {
+        grid-row-end: time1200;
+      }
+      .event.end-1230 {
+        grid-row-end: time1230;
+      }
+      .event.end-1259 {
+        grid-row-end: time1259;
+      }
+      .event.end-1300 {
+        grid-row-end: time1300;
+      }
+      .event.end-1330 {
+        grid-row-end: time1330;
+      }
+      .event.end-1400 {
+        grid-row-end: time1400;
+      }
+      .event.end-1410 {
+        grid-row-end: time1410;
+      }
+      .event.end-1420 {
+        grid-row-end: time1420;
+      }
+      .event.end-1430 {
+        grid-row-end: time1430;
+      }
+      .event.end-1450 {
+        grid-row-end: time1450;
+      }
+      .event.end-1500 {
+        grid-row-end: time1500;
+      }
+      .event.end-1530 {
+        grid-row-end: time1530;
+      }
+      .event.end-1540 {
+        grid-row-end: time1540;
+      }
+      .event.end-1600 {
+        grid-row-end: time1600;
+      }
+      .event.end-1610 {
+        grid-row-end: time1610;
+      }
+      .event.end-1611 {
+        grid-row-end: time1620;
+      }
+      .event.end-1630 {
+        grid-row-end: time1630;
+      }
+      .event.end-1645 {
+        grid-row-end: time1645;
+      }
+      .event.end-1700 {
+        grid-row-end: time1700;
+      }
+      .event.end-1710 {
+        grid-row-end: time1710;
+      }
+      .event.length-1 {
+        grid-column-end: span 1;
+      }
+      .event.length-2 {
+        grid-column-end: span 2;
+      }
+      .event.length-3 {
+        grid-column-end: span 3;
+      }
+      .event.length-4 {
+        grid-column-end: span 4;
+      }
+      .event.stage-earth {
+        background-color: #ffa726;
+      }
+      .event.stage-mercury {
+        background-color: #9ccc65;
+      }
+      .event.stage-venus {
+        background-color: #ff8a65;
+      }
+      .event.stage-mars {
+        background-color: #3beb53;
+      }
+      .event.stage-jupiter {
+        background-color: #81d4fa;
+      }
+      .event.stage-saturn {
+        background-color: #26c6da;
+      }
+      .event.stage-lunch {
+        background-color: #e862d4;
+      }
+      .event.stage-bk{
+        background-color: #232F3E;
+      }
+    </style>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      .image-border {
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+
+  <body class="body-color">
+    <div class="body-inner">
+      <!-- Header start -->
+      <header id="header" class="header header-transparent">
+        <div class="container">
+          <div class="row justify-content-centre">
+            <div class="col-sm"></div>
+            <div class="col-lg">
+              <img
+                  class="center-block"
+                  src="images/aws_cd_au.png"
+                  alt="AWS Community Day Australia"
+                  width="100%"
+                />
+            </div>
+            <div class="col-sm"></div>
+          </div>
+          <nav id="navbarnav" class="navbar navbar-expand-lg navbar-light">
+            <!-- logo-->
+            <a class="navbar-brand" href="index.html">
+
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"
+                ><i class="icon icon-menu"></i
+              ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item nav-link active">
+                  <a class="ts-scroll" href="#home">Home</a>
+                </li> -->
+                <!-- <li class="nav-item nav-link">
+                  <a class="ts-scroll" href="#about">About</a>
+                </li> -->
+                <!-- <li class="nav-item nav-link">
+                  <a class="ts-scroll" href="#ts-speakers">Speakers</a>
+                </li> -->
+                <!-- <li class="nav-item nav-link">
+                  <a class="ts-scroll" href="#schedules">Schedules</a>
+                </li> -->
+                <li class="nav-item nav-link">
+                  <a class="ts-scroll" href="#sponsors">Sponsors</a>
+                </li>
+                <li class="nav-item nav-link">
+                  <a class="ts-scroll" href="#orgcom">Organisers</a>
+                </li>
+                <li class="nav-item nav-link">
+                  <a href="#code-of-conduct">
+                    Conduct
+                  </a>
+                </li>
+                <li class="nav-item nav-link">
+                  <a 
+                    class="btn"
+                    style="line-height: 48px; margin-top: 11px"
+                    href="#ts-sponsor-us"
+                    target="_blank">SPONSOR
+                  </a>
+               </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- container end-->
+      </header>
+      <!--/ Header end -->
+
+      <!-- banner start-->
+      <section class="hero-area content-left" id="home">
+        <div
+          class="banner-item wow animate__animated animate__fadeInUp"
+          style="
+            background-image: url(images/AWS_Banner.png);
+            background-size: 100%;
+          "
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="banner-content-wrap">
+                  <div
+                    class="countdown animate__animated animate__zoomIn"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="800ms"
+                  >
+                    <div
+                      class="counter-item wow animate__animated animate__fadeInDown"
+                    >
+                      <i class="icon icon-ring-1Asset-1"></i>
+                      <span class="days">00</span>
+                      <div class="smalltext">Days</div>
+                    </div>
+                    <div
+                      class="counter-item wow animate__animated animate__fadeInUp"
+                    >
+                      <i class="icon icon-ring-4Asset-3"></i>
+                      <span class="hours">00</span>
+                      <div class="smalltext">Hours</div>
+                    </div>
+                    <div
+                      class="counter-item wow animate__animated animate__fadeInDown"
+                    >
+                      <i class="icon icon-ring-3Asset-2"></i>
+                      <span class="minutes">00</span>
+                      <div class="smalltext">Minutes</div>
+                    </div>
+                    <div
+                      class="counter-item wow animate__animated animate__fadeInUp"
+                    >
+                      <i class="icon icon-ring-4Asset-3"></i>
+                      <span class="seconds">00</span>
+                      <div class="smalltext">Seconds</div>
+                    </div>
+                  </div>
+                  <!-- Countdown end -->
+                  
+                  <h2
+                    class="bold animate__animated animate__fadeInLeft"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="700ms"
+                  >
+                    AWS Community Day 2025, Australia
+                  </h2>
+                  <div class="margin-bottom-3">
+                    <p class="lead animate__animated animate__fadeInRight">
+                      Community-led conference for AWS users. Learn from
+                      hands-on practitioners like yourself. <br/>
+                      <br/>
+                    </p>
+                    <span class="mt-5">
+                      <span class="d-block mt-3">
+                        <span class="mb-2 text-muted">
+                          When :
+                        </span>
+                        <span class="mb-2 h5" style="font-weight: bold;">
+                          15th August 2025 
+                        </span>
+                      </span>
+                      <span class="d-block mt-3">
+                        <span class="mb-2 text-muted">
+                          Location :
+                        </span>
+                        <span class="mt-2 h5" style="font-weight: bold;">
+                          Brisbane Convention & Exhibition Centre
+                        </span>
+                      </span>
+                      <span class="d-block mt-3">
+                        <span class="mt-2 text-muted">
+                          Address :
+                        </span>
+                        <span class="mt-2 h5" style="font-weight: bold;">
+                          Cnr Merivale and Glenelg Streets <br />
+                          South Bank, Brisbane <br />
+                          Queensland, Australia</span>
+                          <span style="font-size: 14px">
+                            <!-- (Main event, Track 2) -->
+                          </span>
+                          <a href="https://maps.app.goo.gl/i42SPZstLXmh83UT6" target="_blank">
+                            <i class="ml-2 mr-2 fa fa-lg fa-map-marker" style="color: orange;">
+                            </i>
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <!-- <br>
+                    <br>
+                    The deadline for speaker submissions is July 26. -->
+                  </div>
+                  <div class="banner-btn animate__animated animate__fadeInLeft" style="margin-top: 30px">
+                    <a
+                      class="btn"
+                      href="https://sessionize.com/aws-community-day-australia-2025"
+                      target="_blank"
+                      >CALL FOR SPEAKERS</a
+                    >
+                    <!-- <a
+                      class="btn"
+                      href="#"
+                      target="_blank"
+                      >Coming soon...</a
+                    > -->
+                  </div>
+                </div>
+                <!-- Banner content wrap end -->
+              </div>
+              <!-- col end-->
+            </div>
+            <!-- row end-->
+          </div>
+          <!-- Container end -->
+        </div>
+      </section>
+      <!-- banner end-->
+
+      <!-- ts intro start -->
+      <section id="about" class="ts-intro event-intro">
+        <div class="container">
+          <div class="row wow animate__animated animate__fadeInLeft animated">
+            <div class="col-lg-12 mx-auto">
+              <h2
+                class="section-title white"
+                class="text-center"
+                style="margin-bottom: 0"
+              >
+                <span>Welcome to the</span>
+                AWS Community Day Australia !
+              </h2>
+              <div class="single-intro-text text-center">
+                <p style="font-size: 18px">
+                  AWS Community Day Australia is a one-day, user-run single-day AWS technical
+                  conference that is planned, organized, and delivered by the AWS user group
+                  community leaders (much like a “Meetup of Meetups”).
+                  The goal of the Community Day is to facilitate the exchange of information amongst
+                  the AWS user community. The presentations are all given by speakers who are fellow
+                  AWS users sharing knowledge with their peers.
+                </p>
+              </div>
+            </div>
+            <!-- col end-->
+          </div>
+          <!-- row end-->
+        </div>
+        <!-- container end-->
+      </section>
+      <!-- ts intro end-->
+
+      <!-- Schedules container start -->
+      <!-- ts experience start-->
+      <section id="schedules" class="d-none">
+        <script type="text/javascript" src="https://sessionize.com/api/v2/ekhxszsv/view/GridSmart"></script>
+      </section>
+      <!-- ts experience end -->
+      <!-- Schedules container end -->
+
+      <!-- speaker block here -->
+      <section id="ts-speakers" class="ts-speakers d-none">
+        <div class="container">
+          <div class="row wow animate__animated animate__zoomIn animated">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="section-title white text-center">
+                <span>Listen to the</span>
+                Event Speakers
+              </h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+              data-wow-duration="1.5s"
+              data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                    class="img-fluid"
+                    src="images/speakers/stephen-sennett.jpg"
+                    alt=""
+                  />
+                  <a
+                    href="https://www.linkedin.com/in/ssennett/"
+                    class="view-speaker ts-image-popup"
+                    data-effect="mfp-zoom-in"
+                    target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">Stephen Sennett (Keynote Speaker)</h3>
+                  <p>Consultant, AWS Community Builder, Tech Content Creator</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+              data-wow-duration="1.5s"
+              data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                    class="img-fluid"
+                    src="images/speakers/derek-bingham.png"
+                    alt=""
+                  />
+                  <a
+                    href="https://www.linkedin.com/in/derekwbingham/"
+                    class="view-speaker ts-image-popup"
+                    data-effect="mfp-zoom-in"
+                    target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">Derek Bingham (Keynote Speaker)</h3>
+                  <p>Developer Advocate @ <b> AWS </b></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img class="img-fluid" src="images/speakers/hazelle-sevilla.jpg" alt="" />
+                  <a
+                          href="https://www.linkedin.com/in/hazelle-sevilla/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff"> Hazelle Sevilla </h3>
+                  <p>
+                    Senior Solutions Architect @ <b> MongoDB </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+              <div
+              class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+              data-wow-duration="1.5s"
+              data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                    class="img-fluid"
+                    src="images/speakers/abhishek-vasisht.jpg"
+                    alt=""
+                  />
+                  <a
+                    href="https://www.linkedin.com/in/abhishek-vasisht/"
+                    class="view-speaker ts-image-popup"
+                    data-effect="mfp-zoom-in"
+                    target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">
+                    Abhishek Vasisht
+                  </h3>
+                  <p> Platform Lead @ <b> AoFrio </b></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                          class="img-fluid"
+                          src="images/speakers/arshad-zackeriya.png"
+                          alt=""
+                  />
+                  <a
+                          href="https://www.linkedin.com/in/arshad-zackeriya-713b821b"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">
+                    Arshad Zackeriya
+                  </h3>
+                  <p> AWS Hero, Senior Enginer @ <b> Xero</b></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                          class="img-fluid"
+                          src="images/speakers/ carlo-columna.png"
+                          alt=""
+                  />
+                  <a
+                          href="https://www.linkedin.com/in/carlo-columna/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">
+                    Carlo Columna
+                  </h3>
+                  <p> AWS Community Builder, Senior Enginer @ <b> Xero</b></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                          class="img-fluid"
+                          src="images/speakers/casey-orr.png"
+                          alt=""
+                  />
+                  <a
+                          href="https://www.linkedin.com/in/casey-orr-97280a163/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">
+                    Casey Orr
+                  </h3>
+                  <p> Snr. Solution Architect @ <b> AWS </b></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                          class="img-fluid"
+                          src="images/speakers/cecilia-yin.jpg"
+                          alt=""
+                  />
+                  <a
+                          href="https://www.linkedin.com/in/cecilia-yin/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">
+                    Cecilia Yin
+                  </h3>
+                  <p>Solutions Architect @ <b> AWS </b></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+              data-wow-duration="1.5s"
+              data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                    class="img-fluid"
+                    src="images/speakers/chamila-de-alwis.jpg"
+                    alt=""
+                  />
+                  <a
+                    href="https://linkedin.com/in/chamilad"
+                    class="view-speaker ts-image-popup"
+                    data-effect="mfp-zoom-in"
+                    target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">Chamila de Alwis</h3>
+                  <p>AWS Senior Cloud Architect @ <b> CCL </b></p>
+                </div>
+              </div>
+            </div>
+
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                          class="img-fluid"
+                          src="images/speakers/chiwai-chan.jpg"
+                          alt=""
+                  />
+                  <a
+                          href="https://nz.linkedin.com/in/chiwaichan"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">Chiwai Chan</h3>
+                  <p>Principal AWS Consultant @ <b> Datacom </b></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+              data-wow-duration="1.5s"
+              data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                    class="img-fluid"
+                    src="images/speakers/daniel-surendran.jpg"
+                    alt=""
+                  />
+                  <a
+                    href="https://www.linkedin.com/in/danielvijay/"
+                    class="view-speaker ts-image-popup"
+                    data-effect="mfp-zoom-in"
+                    target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">Daniel Surendran</h3>
+                  <p>Solutions Architect at <b> AWS </b></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+              data-wow-duration="1.5s"
+              data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                    class="img-fluid"
+                    src="images/speakers/darshit-pandya.jpeg"
+                    alt=""
+                  />
+                  <a
+                    href="https://www.linkedin.com/in/darshitpandya/"
+                    class="view-speaker ts-image-popup"
+                    data-effect="mfp-zoom-in"
+                    target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">Darshit Pandya</h3>
+                  <p> AWS community builder - Serverless, Senior Principal Software Engineer - Platform @ <b> Serko </b></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                          class="img-fluid"
+                          src="images/speakers/dinesh-sharma.jpg"
+                          alt=""
+                  />
+                  <a
+                          href="https://www.linkedin.com/in/dineshsharma2511/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff"> Dinesh Sharma </h3>
+                  <p>Regional Practice Lead @ <b> Datacom</b> </b></p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                          class="img-fluid"
+                          src="images/speakers/Elaine Gao.jpeg"
+                          alt=""
+                  />
+                  <a
+                          href="https://www.linkedin.com/in/elaine-gao/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff"> Elaine Gao </h3>
+                  <p>Machine Learning Engineer @ <b> Mantel Group </b></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img class="img-fluid" src="images/speakers/geethika-guruge.png" alt="" />
+                  <a
+                          href="https://www.linkedin.com/in/geethika-guruge/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff"> Geethika Guruge  </h3>
+                  <p>
+                    Lead Consultant @ <b> Mantel Group </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+              data-wow-duration="1.5s"
+              data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img class="img-fluid" src="images/speakers/gleidson-nascimento.jpg" alt="" />
+                  <a
+                    href="https://www.linkedin.com/in/gleidson-nascimento-8604009"
+                    class="view-speaker ts-image-popup"
+                    data-effect="mfp-zoom-in"
+                    target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff"> Gleidson Nascimento </h3>
+                  <p>
+                    Technical Lead - Cloud, DevOps and SRE
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img class="img-fluid" src="images/speakers/hitarth-asrani.png" alt="" />
+                  <a
+                          href="https://www.linkedin.com/in/hitarth-asrani-b99bb414a/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff"> Hitarth Asrani </h3>
+                  <p>
+                    AWS Cloud Devops @ <b> CCL (Spark Business Group) </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img class="img-fluid" src="images/speakers/karaitiana-taiuru.jpg" alt="" />
+                  <a
+                          href="https://www.linkedin.com/in/ktaiuru/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff"> Karaitiana Taiuru </h3>
+                  <p>
+                    Māori AI, Data and Emerging Tech Expert <b> </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img class="img-fluid" src="images/speakers/kasun-de-silva.png" alt="" />
+                  <a
+                          href="https://www.linkedin.com/in/kasundsilva/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff"> Kasun de Silva </h3>
+                  <p>
+                    AWS Community Builder, Senior Engineer @ <b> Xero </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img class="img-fluid" src="images/speakers/lingxian-kong.jpg" alt="" />
+                  <a
+                          href="https://www.linkedin.com/in/lingxiankong"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">Lingxian Kong</h3>
+                  <p>
+                    Lead Cloud Consultant @ <b> Sourced Group</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+            class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+            data-wow-duration="1.5s"
+            data-wow-delay="400ms"
+          >
+            <div class="ts-speaker white-text">
+              <div class="speaker-img">
+                <img
+                  class="img-fluid"
+                  src="images/speakers/meena-satishkumar.jpg"
+                  alt=""
+                />
+                <a
+                  href="https://www.linkedin.com/in/meenaincloud/"
+                  class="view-speaker ts-image-popup"
+                  data-effect="mfp-zoom-in"
+                  target="_blank"
+                >
+                  <i class="icon icon-plus"></i>
+                </a>
+              </div>
+              <div class="ts-speaker-info">
+                <h3 class="ts-title" style="color: #ffffff">
+                  Meena Satishkumar
+                </h3>
+                <p> Founder @ <b>Tech Beyond Gender</b>
+              </div>
+            </div>
+          </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                          class="img-fluid"
+                          src="images/speakers/minmin-zhang.jpg"
+                          alt=""
+                  />
+                  <a
+                          href="https://www.linkedin.com/company/footmark-technology"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">
+                    MinMin Zhang
+                  </h3>
+                  <p> CEO @ <b> Footmark Technology </b>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                          class="img-fluid"
+                          src="images/speakers/raja-n.jpg"
+                          alt=""
+                  />
+                  <a
+                          href="https://www.linkedin.com/in/nraja/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">
+                    Raja N
+                  </h3>
+                  <p> Partner Solution Architect @ <b> AWS </b>
+                </div>
+              </div>
+            </div>
+
+            <div
+                    class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+                    data-wow-duration="1.5s"
+                    data-wow-delay="400ms"
+            >
+              <div class="ts-speaker white-text">
+                <div class="speaker-img">
+                  <img
+                          class="img-fluid"
+                          src="images/speakers/ramaswamy-arunachalam.jpg"
+                          alt=""
+                  />
+                  <a
+                          href="https://www.linkedin.com/in/ramstack/"
+                          class="view-speaker ts-image-popup"
+                          data-effect="mfp-zoom-in"
+                          target="_blank"
+                  >
+                    <i class="icon icon-plus"></i>
+                  </a>
+                </div>
+                <div class="ts-speaker-info">
+                  <h3 class="ts-title" style="color: #ffffff">
+                    Ramaswamy Arunachalam
+                  </h3>
+                  <p> AWS community builder, Architect @ <b> Datacom </b>
+                </div>
+              </div>
+            </div>
+
+
+            <div
+            class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+            data-wow-duration="1.5s"
+            data-wow-delay="400ms"
+          >
+            <div class="ts-speaker white-text">
+              <div class="speaker-img">
+                <img
+                  class="img-fluid"
+                  src="images/speakers/sagar-donthineni.jpg"
+                  alt=""
+                />
+                <a
+                  href="https://linkedin.com/in/donthinenis"
+                  class="view-speaker ts-image-popup"
+                  data-effect="mfp-zoom-in"
+                  target="_blank"
+                >
+                  <i class="icon icon-plus"></i>
+                </a>
+              </div>
+              <div class="ts-speaker-info">
+                <h3 class="ts-title" style="color: #ffffff">
+                  Sagar Donthineni
+                </h3>
+                <p> Senior AWS Architect @ <b> Deloitte New Zealand </b>
+              </div>
+            </div>
+          </div>
+
+
+          <div
+          class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+          data-wow-duration="1.5s"
+          data-wow-delay="400ms"
+        >
+          <div class="ts-speaker white-text">
+            <div class="speaker-img">
+              <img
+                class="img-fluid"
+                src="images/speakers/sahil-bahl.jpg"
+                alt=""
+              />
+              <a
+                href="https://www.linkedin.com/in/bahlsahil/"
+                class="view-speaker ts-image-popup"
+                data-effect="mfp-zoom-in"
+                target="_blank"
+              >
+                <i class="icon icon-plus"></i>
+              </a>
+            </div>
+            <div class="ts-speaker-info">
+              <h3 class="ts-title" style="color: #ffffff">
+                Sahil Bahl
+              </h3>
+              <p> Lead Data Scientist @ <b> Mantel Group </b>
+            </div>
+          </div>
+        </div>
+
+        <div
+        class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+        data-wow-duration="1.5s"
+        data-wow-delay="400ms"
+      >
+        <div class="ts-speaker white-text">
+          <div class="speaker-img">
+            <img
+              class="img-fluid"
+              src="images/speakers/stefan-evans.png"
+              alt=""
+            />
+            <a
+              href="https://www.linkedin.com/in/stefanevansnz/"
+              class="view-speaker ts-image-popup"
+              data-effect="mfp-zoom-in"
+              target="_blank"
+            >
+              <i class="icon icon-plus"></i>
+            </a>
+          </div>
+          <div class="ts-speaker-info">
+            <h3 class="ts-title" style="color: #ffffff">
+              Stefan Evans
+            </h3>
+            <p> DevOps @ <b> CyberCX </b>
+          </div>
+        </div>
+      </div>
+
+
+      <div
+      class="col-lg-4 col-md-6 col-sm-12 animate__fadeIn wow animated animate__animated"
+      data-wow-duration="1.5s"
+      data-wow-delay="400ms"
+    >
+      <div class="ts-speaker white-text">
+        <div class="speaker-img">
+          <img
+            class="img-fluid"
+            src="images/speakers/terence-white.png"
+            alt=""
+          />
+          <a
+            href="https://www.linkedin.com/in/terencewhite/"
+            class="view-speaker ts-image-popup"
+            data-effect="mfp-zoom-in"
+            target="_blank"
+          >
+            <i class="icon icon-plus"></i>
+          </a>
+        </div>
+        <div class="ts-speaker-info">
+          <h3 class="ts-title" style="color: #ffffff">
+            Terence White
+          </h3>
+          <p> Cloud Engineering Practice Lead @ <b> ClearPoint Digital </b>
+        </div>
+      </div>
+    </div>
+
+
+
+          </div>
+        </div>
+        <!-- shap img--> <!-- ##Commented
+        <div class="speaker-shap">
+          <img
+            class="shap1"
+            src="images/shap/home_speaker_memphis1.png"
+            alt=""
+          />
+          <img
+            class="shap2"
+            src="images/shap/home_speaker_memphis2.png"
+            alt=""
+          />
+        </div>
+        <!-- shap img end-->
+      </section>
+
+      <!-- ts speaker end -->
+
+      <!-- sponsors client logo start-->
+      <section id="sponsors" class="ts-sponsors sponsors-border">
+        <div class="container">
+          <div class="wow animate__animated animate__fadeInUp">
+
+            <div class="row sponsors-wrap mt-5">
+              <div class="col-lg-12">
+                <h3 class="section-title white">SPONSORS</h3>
+              </div>
+            </div>
+
+            <div class="row sponsors-wrap" style="margin-top: 50px; border: 0px;">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h3 class="banner-plat">
+                  <strong>PLATINUM SPONSORS</strong>
+                </h3>
+              </div>
+            </div>
+            <div class="row sponsors-wrap" style="margin-top: 150px;border: 0px;">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <a href="https://aws.amazon.com/" class="sponsors-logo" target="_blank">
+                  <img class="img-fluid" src="images/sponsors/aws-logo.jpeg" alt="" width="440" />
+                </a>
+              </div>
+              <div class="col-md-2"></div>
+            </div>
+            <!-- End of the platinum sponsors -->
+
+            <div class="row sponsors-wrap" style="margin-top: 50px; border: 0px;">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h3 class="banner-gold">
+                  <strong>GOLD SPONSORS</strong>
+                </h3>
+              </div>
+            </div>
+            <div class="row sponsors-wrap" style="margin-top: 150px;border: 0px;">
+              <div class="col-md-1">
+
+              </div>
+              <div class="d-flex justify-content-center">
+                <!-- should be d-flex -->
+                <a href="https://mantelgroup.com.au/" class="sponsors-logo" target="_blank">
+                  <img class="img-fluid" src="images/sponsors/MG_Logo_Negative.png" alt="" width="220" />
+                </a>
+                <a href="https://www.idea11.com.au/" class="sponsors-logo" target="_blank">
+                  <img class="img-fluid" src="images/sponsors/idea_11_logo.jpeg" alt="" width="220" />
+                </a>
+                <a href="https://www.commvault.com/" class="sponsors-logo" target="_blank">
+                  <img class="img-fluid" src="images/sponsors/commvault-logo-white.png" alt="" width="220" />
+                </a>
+              </div>
+              <div class="col-md-2"></div>
+            </div>
+            <!-- End of the gold sponsors -->
+             
+            <div class="row sponsors-wrap d-none" style="margin-top: 50px; border: 0px;">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h3
+                  class="banner-silver">
+                  <strong>SILVER SPONSORS</strong>
+                </h3>
+              </div>
+
+            </div>
+
+            <div class="row align-items-center d-none" style="margin-top: 150px; border: 0px;">
+              <div class="col-md-2"></div>
+              <div class="row d-flex justify-content-center">
+                <a href="https://concepts.co.nz" class="sponsors-logo" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="images/sponsors/CCL-Black_Logo.svg"
+                    alt=""
+                    width="120"
+                  />
+                </a>
+                <a href="https://mantelgroup.com.au/" class="sponsors-logo" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="images/sponsors/MG_Logo_Negative.png"
+                    alt=""
+                    width="150"
+                  />
+                </a>
+                <a href="https://apiconnects.co.nz" class="sponsors-logo" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="images/sponsors/apiconnects-footer-logo.png"
+                    alt=""
+                    width="207"
+                  />
+                </a>
+              </div>
+              <div class="col-md-2"></div>
+            </div>
+
+            <!-- <div class="row sponsors-wrap" style="border: 0">
+              <div class="col-md-1"></div>
+              <div class="col-md-6">
+                <a href="https://www.sourcedgroup.com/" class="sponsors-logo" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="images/sponsors/amdocs_sourced_logos_dark_bg_RGB.png"
+                    alt=""
+                    width="450"
+                  />
+                </a>
+              </div>
+
+
+              <div class="col-md-2"></div>
+              <div class="col-md-2"></div>
+              <div class="col-md-3">
+                <a href="https://nz.ingrammicro.com/" class="sponsors-logo" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="images/sponsors/ingram-micro.png"
+                    alt=""
+                    width="220"
+                  />
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="https://www.init.co.nz/" class="sponsors-logo" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="images/sponsors/initi.png"
+                    alt=""
+                    width="220"
+                  />
+                </a>
+              </div>
+
+              <div class="col-md-2"></div>
+            </div> -->
+            <!-- end of silver sponsor-->
+
+            <div class="row sponsors-wrap d-none" style="margin-top: 50px; border: 0px;">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h3
+                  class="banner-bronze">
+                  <strong>BRONZE SPONSORS</strong>
+                </h3>
+              </div>
+            </div>
+            <div class="row sponsors-wrap justify-content-centre d-none" style="border: 0; margin-top: 150px">
+              <div class="col-md-2"></div>
+              <div class="row d-flex justify-content-center">
+                <a href="https://consegna.cloud/" class="sponsors-logo" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="images/sponsors/cybercx.png"
+                    alt=""
+                    width="150"
+                  />
+                </a>
+                <a href="https://www.init.co.nz/" class="sponsors-logo" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="images/sponsors/initi.png"
+                    alt=""
+                    width="150"
+                  />
+                </a>
+                <a href="https://datacom.com/nz/en/" class="sponsors-logo" target="_blank">
+                  <span style="background-color: white; padding: auto">
+                    <img
+                      class="img-fluid"
+                      src="images/sponsors/Datacom-Primary-Logo-RGB.svg"
+                      alt=""
+                      width="150"
+                      style="margin: 15px;"
+                    />
+                  </span>
+                </a>
+              </div>
+
+              <div class="col-md-2"></div>
+            </div>
+
+            <!-- lanyard sponsors -->
+            <div class="row sponsors-wrap d-none" style="margin-top: 50px; border: 0px;">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h3
+                  class="banner-lanyard">
+                  <strong>LANYARD SPONSORS</strong>
+                </h3>
+              </div>
+            </div>
+            <div class="row sponsors-wrap justify-content-centre d-none" style="border: 0; margin-top: 100px">
+              <div class="col-md-5"></div>
+              <div class="row d-flex justify-content-center">
+                <a href="https://metaphor.cloud/" class="sponsors-logo" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="images/sponsors/Metaphor.png"
+                    alt=""
+                    width="200px"
+                  />
+                </a>
+              </div>
+              <div class="col-sm-5"></div>
+            </div>
+
+            <!-- Coffee sponsors -->
+            <div class="row sponsors-wrap d-none" style="margin-top: 50px; border: 0px;">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h3
+                  class="banner-coffee">
+                  <strong>COFFEE SPONSORS</strong>
+                </h3>
+              </div>
+            </div>
+            <div class="row sponsors-wrap justify-content-centre d-none" style="border: 0; margin-top: 100px">
+              <div class="col-md-5"></div>
+              <div class="row d-flex justify-content-center">
+                <a href="https://koan.co.nz/" class="sponsors-logo" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="images/sponsors/koan_logo.png"
+                    alt="Koan Technology"
+                    width="200px"
+                  />
+                </a>
+              </div>
+              <div class="col-sm-5"></div>
+            </div>
+
+            <!-- Friends of AWS -->
+            <div class="row sponsors-wrap d-none" style="margin-top: 50px; border: 0px;">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h3 class="banner-friends">
+                  <strong>FRIENDS OF AWSUG.NZ</strong>
+                </h3>
+              </div>
+            </div>
+            <div class="row sponsors-wrap align-items-center d-none" style="margin-top: 120px; border: 0;">
+              <div class="col-md-2"></div>
+              <div class="row d-flex align-items-center">
+                <a href="https://clearpoint.digital" class="sponsors-logo" target="_blank">
+                  <!-- <img
+                    class="img-fluid"
+                    src="images/sponsors/ClearPoint_Logo_White.svg"
+                    alt=""
+                    width="60%"
+                  /> -->
+                  <h3>ClearPoint</h3>
+                </a>
+                <a href="https://redhat.com" class="sponsors-logo" target="_blank">
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 613 145" class="redhat-logo" style="margin: 0px; width: 80%; display: block; max-width: var(--pfe-navigation--logo--maxWidth, 170px);" height="32" width="135" role="img"><title>Red Hat</title><path d="M127.47 83.49c12.51 0 30.61-2.58 30.61-17.46a14 14 0 0 0-.31-3.42l-7.45-32.36c-1.72-7.12-3.23-10.35-15.73-16.6C124.89 8.69 103.76.5 97.51.5 91.69.5 90 8 83.06 8c-6.68 0-11.64-5.6-17.89-5.6-6 0-9.91 4.09-12.93 12.5 0 0-8.41 23.72-9.49 27.16a6.43 6.43 0 0 0-.22 1.94c0 9.22 36.3 39.45 84.94 39.45M160 72.07c1.73 8.19 1.73 9.05 1.73 10.13 0 14-15.74 21.77-36.43 21.77-46.76.03-87.72-27.37-87.72-45.48a18.45 18.45 0 0 1 1.51-7.33C22.27 52 .5 55 .5 74.22c0 31.48 74.59 70.28 133.65 70.28 45.28 0 56.7-20.48 56.7-36.65 0-12.72-11-27.16-30.83-35.78" fill="#e00"></path><path d="M160 72.07c1.73 8.19 1.73 9.05 1.73 10.13 0 14-15.74 21.77-36.43 21.77-46.76.03-87.72-27.37-87.72-45.48a18.45 18.45 0 0 1 1.51-7.33l3.66-9.06a6.43 6.43 0 0 0-.22 1.9c0 9.22 36.3 39.45 84.94 39.45 12.51 0 30.61-2.58 30.61-17.46a14 14 0 0 0-.31-3.42Z"></path><path d="M579.74 92.8c0 11.89 7.15 17.67 20.19 17.67a52.11 52.11 0 0 0 11.89-1.68V95a24.84 24.84 0 0 1-7.68 1.16c-5.37 0-7.36-1.68-7.36-6.73V68.3h15.56V54.1h-15.56v-18l-17 3.68V54.1h-11.29v14.2h11.25Zm-53 .32c0-3.68 3.69-5.47 9.26-5.47a43.12 43.12 0 0 1 10.1 1.26v7.15a21.51 21.51 0 0 1-10.63 2.63c-5.46 0-8.73-2.1-8.73-5.57m5.2 17.56c6 0 10.84-1.26 15.36-4.31v3.37h16.82V74.08c0-13.56-9.14-21-24.39-21-8.52 0-16.94 2-26 6.1l6.1 12.52c6.52-2.74 12-4.42 16.83-4.42 7 0 10.62 2.73 10.62 8.31v2.73a49.53 49.53 0 0 0-12.62-1.58c-14.31 0-22.93 6-22.93 16.73 0 9.78 7.78 17.24 20.19 17.24m-92.44-.94h18.09V80.92h30.29v28.82H506V36.12h-18.07v28.29h-30.29V36.12h-18.09Zm-68.86-27.9c0-8 6.31-14.1 14.62-14.1A17.22 17.22 0 0 1 397 72.09v19.45A16.36 16.36 0 0 1 385.24 96c-8.2 0-14.62-6.1-14.62-14.09m26.61 27.87h16.83V32.44l-17 3.68v20.93a28.3 28.3 0 0 0-14.2-3.68c-16.19 0-28.92 12.51-28.92 28.5a28.25 28.25 0 0 0 28.4 28.6 25.12 25.12 0 0 0 14.93-4.83ZM320 67c5.36 0 9.88 3.47 11.67 8.83h-23.2C310.15 70.3 314.36 67 320 67m-28.67 15c0 16.2 13.25 28.82 30.28 28.82 9.36 0 16.2-2.53 23.25-8.42l-11.26-10c-2.63 2.74-6.52 4.21-11.14 4.21a14.39 14.39 0 0 1-13.68-8.83h39.65v-4.23c0-17.67-11.88-30.39-28.08-30.39a28.57 28.57 0 0 0-29 28.81M262 51.58c6 0 9.36 3.78 9.36 8.31S268 68.2 262 68.2h-17.89V51.58Zm-36 58.16h18.09V82.92h13.77l13.89 26.82H292l-16.2-29.45a22.27 22.27 0 0 0 13.88-20.72c0-13.25-10.41-23.45-26-23.45H226Z" fill="#fff"></path></svg>                  -->
+                   <h3>Red Hat</h3>
+                </a>
+                <span class="sponsors-logo">
+                  <h3> Jethro Carr</h3>
+                </span>
+                <a href="https://www.infoflux.tech/" class="sponsors-logo" target="_blank">
+                  <h3>InfoFlux Tech</h3>
+                </a>
+              </div>
+
+              <div class="col-md-3"></div>
+            </div>
+
+            <!-- <div class="row sponsors-wrap">
+              <div class="col-lg-12">
+                <h3
+                  class="section-title white"
+                  style="
+                    text-align: center;
+                    color: #ffffff;
+                    margin-bottom: 30px;
+                  "
+                >
+                  SUPPORTERS
+                </h3>
+              </div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3">
+                <a
+                  href="https://www.meetup.com/aws-sg/"
+                  class="sponsors-logo"
+                  target="_blank"
+                >
+                  <img
+                    class="img-fluid"
+                    src="images/AWS_UG_SG_Logo.png"
+                    alt="AWS"
+                    width="200"
+                  />
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a
+                  href="https://accorevents.com/offers/aws-community-day-aotearoa-2023"
+                  class="sponsors-logo"
+                  target="_blank"
+                >
+                  <img
+                    class="img-fluid"
+                    src="images/hotel.png"
+                    alt="hotel_discount"
+                    width="200"
+                  />
+                </a>
+              </div>
+
+
+              <div class="col-md-2"></div>
+            </div> -->
+
+          </div>
+          <div class="row" style="padding-bottom: 25px">
+            <div class="col-lg-12">
+              <h3
+                class="section-title white wow animated animate__animated animate__fadeInLeft"
+                style="text-align: center; color: #ffffff; margin-bottom: 30px"
+              >
+                ORGANISING COMMITTEE
+              </h3>
+          </div>
+
+
+<div class="container" id="orgcom">
+  <!-- Alan Blockley -->
+  <div class="row" style="margin-left: 10%;">
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center">
+      <div class="community-role">Community <br /> Builder</div>
+      <br />
+      <a href="https://www.linkedin.com/in/alan-blockley/" target="_blank">
+        <img
+          class="img-fluid image-border"
+          src="images/team/alan-blockley.jpeg"
+          alt="Alan Blockley"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">Alan <br />Blockley</div>
+      <div style="margin-top: 20px; font-size: 14px">Domain Specialist<br />Thoughtworks</div>
+    </div>
+
+    <!-- Rian -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center">
+      <div class="community-role">Community <br /> Builder</div>
+      <br />
+      <a href="https://www.linkedin.com/in/rianbk/" target="_blank">
+        <img
+          class="img-fluid image-border"
+          src="images/team/rbk-white.png"
+          alt="Rian Brooks-Kane"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">Rian <br />Brooks-Kane</div>
+      <div style="margin-top: 20px; font-size: 14px">Senior SA<br />Idea 11</div>
+    </div>
+    <!-- col end-->
+
+    <!-- Bojan Zivic -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center">
+      <div class="community-role">Community <br /> Builder</div>
+      <br />
+      <a href="https://www.linkedin.com/in/bojan-zivic-65431033/" target="_blank">
+        <img
+          class="img-fluid image-border"
+          src="images/team/bojan-zivik.jpeg"
+          alt="Bojan Zivic"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">Bojan <br />Zivic</div>
+      <div style="margin-top: 20px; font-size: 14px">Principal Consultant <br />Mantel Group</div>
+    </div>
+
+    <!-- Lucy Webster -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center">
+      <div class="community-role">Usergroup <br />Lead</div>
+      <br />
+      <a href="https://www.linkedin.com/in/lucy-w-537921123/" target="_blank">
+        <img
+          class="img-fluid image-border"
+          src="images/team/lucy-webster.png"
+          alt="Lucy Webster"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">Lucy <br />Webster</div>
+      <div style="margin-top: 20px; font-size: 14px">Team Lead <br /> Thoughtworks</div>
+    </div>
+
+    <!-- Michael Kingston -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center ">
+      <div class="community-role">Community <br />Volunteer</div>
+      <br />
+      <a href="https://www.linkedin.com/in/michael-kenneth-kingston/" target="_blank">
+        <img
+          class="img-fluid image-border"
+          src="images/team/michael-kingston.png"
+          alt="Michael Kingston"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">Michael <br> Kingston</div>
+      <div style="margin-top: 20px; font-size: 14px"> BDM & Lead Dev <br /> Ground ZeroW</div>
+    </div>
+
+    <!-- Rowan Udell -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center ">
+      <div class="community-role">Community <br />Builder</div>
+      <br />
+      <a
+        href="https://www.linkedin.com/in/rowanu/"
+        target="_blank"
+      >
+        <img
+          class="img-fluid image-border"
+          src="images/team/rowan-udell.png"
+          alt="Rowan Udell"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">
+        Rowan <br />Udell
+      </div>
+      <div style="margin-top: 20px; font-size: 14px"> AWS Security Consultant</div>
+    </div>
+
+    <!-- Lynelle Curtis -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center ">
+      <div class="community-role">Community <br />Volunteer</div>
+      <br />
+      <a
+        href="https://www.linkedin.com/in/lynelle-curtis-559152350/"
+        target="_blank"
+      >
+        <img
+          class="img-fluid image-border"
+          src="images/team/lynelle-curtis.jpeg"
+          alt="Lynelle Curtis"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">Lynelle <br>Curtis</div>
+      <div style="margin-top: 20px; font-size: 14px">Business Manager<br />Brisbane Grammer</div>
+    </div>
+
+    <!-- Arjen Schwarz -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center ">
+      <div class="community-role">Community <br />Builder</div>
+      <br />
+      <a
+        href="https://www.linkedin.com/in/arjenschwarz/"
+        target="_blank"
+      >
+        <img
+          class="img-fluid image-border"
+          src="images/team/arjen-schwarz.jpeg"
+          alt="Arjen Schwarz"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">Arjen <br /> Schwarz</div>
+      <div style="margin-top: 20px; font-size: 14px">Principal Consultant<br />Mantel Group</div>
+    </div>
+
+    <!-- Kaitlin Blockley -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center ">
+      <div class="community-role">Community <br/> Volunteer</div>
+      <br />
+      <a
+        href="https://www.linkedin.com/in/kaitlin-blockley-8256b95a/"
+        target="_blank"
+      >
+        <img
+          class="img-fluid image-border"
+          src="images/team/kaitlin-blockley.jpeg"
+          alt="Kaitlin Blockley"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">Kaitlin <br> Blockley</div>
+      <div style="margin-top: 20px; font-size: 14px">Higher Degree Officer<br />UQ</div>
+    </div>
+
+    <!-- Betina Dale -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center " >
+      <div class="community-role" >Community <br />Volunteer</div>
+      <br />
+      <a
+        href="https://www.linkedin.com/in/betinadale/"
+        target="_blank"
+      >
+        <img
+          class="img-fluid image-border"
+          src="images/team/betina-dale.jpeg"
+          alt="Betina Dale"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">Betina <br> Dale</div>
+      <div style="margin-top: 20px; font-size: 14px">Senior Field Marketer<br />Thoughtworks</div>
+    </div>
+
+    <!-- Matthew Merriel -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center ">
+      <div class="community-role">Community <br />Builder</div>
+      <br />
+      <a
+              href="https://www.linkedin.com/in/matthewmerriel/"
+              target="_blank"
+      >
+        <img
+          class="img-fluid image-border"
+          src="images/team/matthew-merriel.jpeg"
+          alt="Matthew Merriel"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">Matthew <br> Merriel</div>
+      <div style="margin-top: 20px; font-size: 14px">Principal Consultant<br />Mantel Group</div>
+    </div>
+
+    <!-- Mark Promnitz -->
+    <div class="col-sm-6 col-xs-12 col-md-2 col-lg-2 col-xl-2 wow animated animate__animated animate__fadeInDown" style="text-align: center ">
+      <div class="community-role">Community <br />Volunteer</div>
+      <br />
+      <a
+        href="https://www.linkedin.com/in/markpromnitz/"
+        target="_blank"
+      >
+        <img
+          class="img-fluid image-border"
+          src="images/team/mark-promnitz.jpeg"
+          alt="Mark Promnitz"
+          width="300"
+        />
+      </a>
+      <div style="margin-top: 20px; font-size: 18px">
+        Mark <br />Promnitz
+      </div>
+      <div style="margin-top: 20px; font-size: 14px"> Senior SA <br />AWS</div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+
+        <!-- container end-->
+      </section>
+      <!-- sponsors client logo end-->
+
+      <!-- Sponsors container start -->
+      <section id="ts-sponsor-us" class="ts-sponsor-us">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <h2 class="section-title">Sponsor AWS Community Day Australia</h2>
+              <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS2hOqnPV2z8E6ZMkkT7wjxaCS1LhrSFbuBr6bFlBNtfiRv4XOKNCOqKmCXSozGzQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+              <p class="text-center"><a href="https://docs.google.com/presentation/d/e/2PACX-1vS2hOqnPV2z8E6ZMkkT7wjxaCS1LhrSFbuBr6bFlBNtfiRv4XOKNCOqKmCXSozGzQ/embed?start=false&loop=false&delayms=3000" target="_blank" class="btn btn-primary">View Presentation (Fullscreen)</a>
+              <a href="/assets/awscd-sponsorship-AWSCDAU_V1.40.pdf" target="_blank" class="btn btn-primary">Download Presentation (PDF)</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Sponsors container end -->
+
+      <!-- ts code of conduct start -->
+      <section id="code-of-conduct" class="ts-intro event-intro">
+        <div class="container">
+          <div class="row wow animate__animated animate__fadeInLeft animated">
+            <div class="col-lg-12 mx-auto">
+              <h2 class="section-title white" class="text-center" style="margin-bottom: 0">
+                Code of Conduct
+              </h2>
+              <div class="single-intro-text text-left">
+                <p>
+                  We firmly believe in the value and importance of an environment where all AWS Community Day participants feel welcome and safe. The purpose of our AWS events is to foster exchange of technical knowledge and encourage community discussion and participation. The terms of this Code of Conduct are non-negotiable and behaviour that runs counter to it will not be tolerated. By attending this event, you agree to respect and follow these rules.
+                <p>
+                <p class="mt-3">
+                  We expect the following from all participants (including AWS employees, organisers, attendees, vendors, sponsors, speakers, volunteers, and guests):
+                  <ul class="m-3 ml-4">
+                    <li class="mt-2 ml-2">You will behave in a way as to create a safe and supportive environment for all event participants.</li>
+                    <li class="mt-2 ml-2">You will not engage in disruptive speech or behaviour or otherwise interfere with the event or other individuals' participation in the event.</li>
+                    <li class="mt-2 ml-2">You will not engage in any form of harassing, offensive, discriminatory, or threatening speech or behaviour, including (but not limited to) relating to race, gender, gender identity and expression, national origin, religion, disability, marital status, age, sexual orientation, military or veteran status, or other protected category.</li>
+                    <li class="mt-2 ml-2">You will comply with the instructions of event and venue staff.</li>
+                    <li class="mt-2 ml-2">You will comply with all applicable laws.</li>
+                  </ul>
+                </p>
+                <p>
+                  If a participant engages in inappropriate behaviour, the organisers may take any action they deem appropriate, including warning the offender or expulsion from the event. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please report it to an organiser immediately.
+                </p>
+
+                <div>
+                  <p class="lead text-center mt-5 mb-4">
+                    In short, let's be excellent to each other!
+                  </p>
+                </div>
+
+                <div>
+                  <p class="text-center">This code of conduct was adapted from the <a title="Link to AWS Community Code of Conduct Page" href="https://aws.amazon.com/codesofconduct/" target="_blank" rel="noopener">AWS Community Code of Conduct.</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- col end-->
+          </div>
+          <!-- row end-->
+        </div>
+        <!-- container end-->
+      </section>
+      <!-- ts code of conduct end -->
+      <div class="footer-area wow animate__animated animate__fadeInUp">
+        <!-- footer start-->
+        <footer class="ts-footer ts-footer-item">
+          <div class="container">
+            <div class="row footer-border">
+              <div class="col-lg-5"></div>
+              <div class="col-lg-7">
+                <!-- footer social end-->
+                <div class="footer-menu mb-30" style="font-size: 18px">
+                  <ul>
+                    <li><a></a></li>
+                  </ul>
+                </div>
+                <!-- footer menu end-->
+
+                <div class="ts-footer-social">
+                  <ul>
+                    <!-- <li>
+                      <a href="https://awsug.nz/" target="_blank"
+                        ><i class="fa fa-meetup"></i
+                      ></a>
+                    </li> -->
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/company/aws-community-day-australia/?viewAsMember=true"
+                        target="_blank"
+                        ><i class="fa"
+                          ><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABmJLR0QA/wD/AP+gvaeTAAABi0lEQVRIid2Vv05UQRSHv0OUrDYqsoUFKn8q38FQGZ+ATl6BxCz2PISJWFj4p7LQloQOCnpeACgFVEh2A2vhZ3G5m/F6l73DWvGr5tyZ+X1zTs7MheuiaLJIvQUsAg+Be8BP4ADYioizsU6gLqif1J716qkf1fmrAl6pv4aYV9VXV3MBbxuaV7Wek8E46owCLPh3iTbVO+pyBqSvzqW+ExXOGnAzib9FxCmw16gMhSYvfAYatLBFmx4Dtyub9oAHQCsD1APa/7S3+rwm9bVkXvVzEq+obfWu+rpm77NybVquRxknBXgH/I6IE6ADHFbmH9dB7mdCNoAdgIjoA7uV+elycCP5+D0TMp8aUTw1qY7KQZrJQSZklAZ+KWSLoiv+h7rAdhkMyhURZ+pX4EWy+Im6lMQzSdwCJpJ4Jln3JSLOa/HqrHqecbuH3fjLX2V1dUzIy1G1LEHrVwS8aQRIQJ2L1Juo3ziDGtCc+kHtDjHvqu/V2ct8mv7jW8BTiqdiCvgB7APbQ7voWuoP3oG9oAzPxCoAAAAASUVORK5CYII=" /></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="mailto:enquiries@awscommunitydayaus.com"
+                        target="_blank"
+                        ><i class="fa fa-email"
+                          ><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABmJLR0QA/wD/AP+gvaeTAAACDklEQVRIie2UP2hUQRDGv7nb3WedQgQbC7VJZ2FAOBHliI3aWIikEmJhaZFUiahNBO20CyIERJAU6RQrq0QRESQEsZGgEMQ/iRByNzPvPgtf5Hi+M5qkEfPBwr43s/Pb+QYW2NF/KVnfuPt5kvcAxG2om5O8mFK6CwCh1WrtDyH0hxDuu/sqyQcAdm0B0BKRczHGGXc/4+7zNRHJSE6r6oUQwgyAkwC+bRKwCuB0CGGmcOahiGS1IlgXkUkzuxxjfEryBIBPfwn4CqAZY3yiqpdITqGwvtaVJABumdlESulFp9M5CuD9HwKWOp3OsRjjrJmNisid7tq1igOj7n47pfTG3RsA3v6uOsl3eZ43UkqvzewmgIlfktrtdr+ZsbxUdYpkILnHzF5V5ZjZPMm9JOvuPlmV0263+6s6+eGdyClVPSAiSyGE4wDmSilzIYSGiHxQ1YMkz/aq1QuyQnIwy7IFdx8CoCGEJoDHRfxR8a3uPpRl2QLJQQArldUq7FpW1QEAMLOx4t8syT6SUtgjJPvMbLaIjwGAqg6Y2XLZrjKkCrA+o0VVHTazI6o6rKqLpctVgsqQbsBIj0FvtMYL0CEz+1we/ArJwZTSMzMbAXCj1xA30FUzG08pvSTZBPAFAGRtbW1fvV7fnVJ6XrR8bZOAbo3HGK+r6uE8zz/+fIW32EGVrsQYt+PCO/pX9R0mgwy0EHw2cgAAAABJRU5ErkJggg==" /></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#code-of-conduct">
+                        <i class="fa">
+                          <img src="images/coduct.png"/>
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- col end-->
+              <div class="col-lg-4" style="font-size: 18px">
+                <div class="copyright-text text-right"></div>
+              </div>
+            </div>
+            <!-- row end-->
+          </div>
+          <!-- container end-->
+        </footer>
+        <!-- footer end-->
+        <div class="BackTo">
+          <a href="#" class="fa fa-angle-up" aria-hidden="true"></a>
+        </div>
+      </div>
+      <!-- ts footer area end-->
+
+      <!-- Javascript Files
+      ================================================== -->
+      <!-- initialize jQuery Library -->
+      <script src="js/jquery.js"></script>
+
+      <script src="js/popper.min.js"></script>
+      <!-- Bootstrap jQuery -->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Counter -->
+      <script src="js/jquery.appear.min.js"></script>
+      <!-- Countdown -->
+      <script src="js/jquery.jCounter.js"></script>
+      <!-- magnific-popup -->
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <!-- carousel -->
+      <script src="js/owl.carousel.min.js"></script>
+
+      <!-- isotop -->
+      <script src="js/isotope.pkgd.min.js"></script>
+
+      <!-- embed2 -->
+      <script src="js/embed2.js"></script>
+      <script src="js/jquery.jCounter.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+      <!-- Template custom -->
+      <script src="js/main.js"></script>
+    </div>
+    <!-- Body inner end -->
+  </body>
+</html>
