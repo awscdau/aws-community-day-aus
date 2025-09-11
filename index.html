@@ -54,6 +54,9 @@
 
     <link rel="stylesheet" href="css/animate.css" />
 
+    <!-- Gallery CSS -->
+    <link rel="stylesheet" href="css/gallery.css" />
+
 
     <style>
       .community-role {
@@ -712,6 +715,24 @@
         <!-- container end-->
       </section>
       <!-- ts intro end-->
+
+      <!-- Gallery block -->
+      <div class="pm-gallery" id="acda-gallery"
+          data-img-path="/img"
+          data-manifest="images.json">
+        <div class="pm-masonry" role="list" aria-label="Photo gallery"></div>
+        <div class="pm-note pm-hidden" id="pm-note"></div>
+      </div>
+
+      <!-- Lightbox modal (place near end of <body>) -->
+      <div class="pm-modal" id="pm-modal" aria-hidden="true" aria-label="Image viewer">
+        <button class="pm-close" id="pm-close" aria-label="Close (Esc)">✕</button>
+        <button class="pm-prev" id="pm-prev" aria-label="Previous (←)">‹</button>
+        <div class="pm-modal-inner">
+          <img id="pm-full" alt="" />
+        </div>
+        <button class="pm-next" id="pm-next" aria-label="Next (→)">›</button>
+      </div>
 
       <!-- Schedules container start -->
       <!-- ts experience start-->
@@ -2042,6 +2063,10 @@
       </script>
       <!-- Template custom -->
       <script src="js/main.js"></script>
+
+      <!-- Gallery -->
+      <script src="js/gallery.js"></script>
+      
     </div>
     <!-- Body inner end -->
   </body>
